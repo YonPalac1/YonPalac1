@@ -114,7 +114,7 @@ code {
 	font: var(--hcuatro);
 }
 .skills .list ol li.none {
-	display: none;
+	opacity: 0;
 }
 .header .text-header h2 span {
 	color: var(--red);
