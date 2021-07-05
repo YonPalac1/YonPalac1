@@ -172,6 +172,7 @@ code {
 	border-radius: 50%;
 	background: var(--red);
 	z-index: -1;
+	right: 0;
 }
 .works-title h3 {
 	font: var(--htres);
@@ -237,11 +238,13 @@ code {
 .img-box span {
 	position: absolute; 
 	background-color: rgb(0,0,0);
-	color: var(--grey);
 	padding: 20px 30px 20px 30px;
 	margin-left: -100px;
 	opacity: 0;
 	transition: .5s;
+}
+.img-box span a {
+	color: #fff;
 }
 .img-box-2 {
 	display: flex;
