@@ -96,6 +96,17 @@ code {
 .skills h3 {
 	font: var(--htres);
 }
+.skills h3::before {
+	content: url(./img/okey.gif);
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+	transition: .8s;
+}
+.skills h3:hover:before{
+	opacity: 1;
+}
 .skills .list h4 {
 	font: var(--hcuatro);
 }
