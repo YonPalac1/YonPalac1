@@ -112,6 +112,7 @@ code {
 }
 .skills h3 {
 	font: var(--htres);
+	width: fit-content;
 }
 .skills h3::before {
 	content: url(./img/okey.gif);
