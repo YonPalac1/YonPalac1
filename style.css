@@ -306,8 +306,12 @@ code {
 	}
 	.body .navbar {
 		z-index: 5000;
-		top: 0;
-		bottom: 100%;
+	}
+	.body .navbar ul li {
+		display: inline-block;
+		list-style: none;
+		margin-left: 0px;
+		margin-right: 20px;
 	}
 	.title-header {
 		text-align: center;
