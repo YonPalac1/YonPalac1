@@ -259,9 +259,15 @@ code {
 
 
 @media (max-width: 600px) {
+	.name {
+		font-size: 23px;
+	}
 	.body .navbar {
 		background-color: rgba(0,0,0,.2);
 		z-index: 5000;
+	}
+	.title-header {
+		text-align: center;
 	}
 	.header .text-header h2 {
 		font-size: 40px;
@@ -271,6 +277,18 @@ code {
 		font-size: 60px;
 		font-family: times;
 		z-index: 1000;
+	}
+	.works-title {
+		text-align: center;
+	}
+	.skills {
+		text-align: center;
+	}
+	.about {
+		text-align: center;
+	}
+	.contact-title {
+		text-align: center;
 	}
 	.big-circle {
 		width: 200px;
