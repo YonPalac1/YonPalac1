@@ -10,8 +10,14 @@
     />
     <title>Jonatan Palacios | Desarrollador web</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+  <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   </head>
   <body class="body">
@@ -40,14 +46,14 @@
     </div>
     <div class="container header">
       <div class="title-header">
-        <div class="big-circle">
+        <div class="big-circle wow bounceIn">
           <div class="little-circle"></div>
         </div>
-          <h1 class="title">Welcome to my portfolio</h1>
+          <h1 class="title wow fadeInUp">Welcome to my portfolio</h1>
       </div>
     </div>
     <div class="container header">
-           <div class="text-header">
+           <div class="text-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <h2>
               Let's put <br />
               some <span>magic <br />
@@ -56,11 +62,11 @@
           </div>
     </div>
     <div class="container skills">
-      <h3>SKILLS</h3>
-      <div class="row">
+      <h3 class="wow fadeInLeftBig">SKILLS</h3>
+      <div class="row mt-5">
         <div class="col-lg-4 list">
-          <h4>Frontend</h4>
-          <ol class="list">
+          <h4 class="wow fadeInUp">Frontend</h4>
+          <ol class="list mt-3 wow fadeInUp">
             <li>HTML5</li>
             <hr />
             <li>CSS3</li>
@@ -71,9 +77,9 @@
             <hr />
           </ol>
         </div>
-        <div class="col-lg-4 list">
-          <h4>BackEnd</h4>
-            <ol class="list red-class">
+        <div class="col-lg-4 list mt-5">
+          <h4 class="wow fadeInUp">BackEnd</h4>
+            <ol class="list red-class mt-3 wow fadeInUp">
               <li>LARAVEL</li>
               <hr />
               <li>PHP</li>
@@ -83,9 +89,9 @@
               <li class="none"></li>
             </ol>
         </div>
-        <div class="col-lg-4 list">
+        <div class="col-lg-4 list mt-5">
           <h5></h5>
-        <ol class="list">
+        <ol class="list mt-3 wow fadeInUp">
           <li>GIT</li>
           <hr />
           <li>GITHUB</li>
@@ -100,7 +106,7 @@
     <div class="works">
     <div class="container">
       <div class="works-title">
-        <h3>WORKS</h3>
+        <h3 class="wow fadeInLeftBig">WORKS</h3>
       </div>
       <div class="works-projects">
         <div class="img">
@@ -111,15 +117,15 @@
     </div>
     <div class="container">
     <div class="row about">
-      <h3>ABOUT ME</h3>
-      <div class="col-lg-7">
+      <h3 class="wow fadeInLeftBig">ABOUT ME</h3>
+      <div class="col-lg-7 wow fadeInUp">
         <p>
           Soy Jonatan, y estoy enamorado del desarrollo y la programación web. 
           Me gusta el desafio de la programación y nunca estuve tan entusiasmado 
           por demostrar que puedo dar mas de mi. Mi siguiente paso es ser parte 
           de un equipo y hacer historia en el camino digital.
         </p>
-        <div class="circle-text">   
+        <div class="circle-text wow bounceIn">   
         </div>
         <p>
           Soy una persona que responde a los cambios e intento estar siempre
@@ -131,7 +137,7 @@
           sentir a las personas.
         </p>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-5 wow fadeInRight">
         <img src="img/foto.png" class="img-fluid" />
       </div>
     </div>
@@ -139,10 +145,10 @@
 
   <div class="contact container">
       <div class="contact-title">
-        <h5>Contact</h5>
+        <h5 class="wow fadeInLeftBig">Contact</h5>
       </div>
       <div class="box-contact row">
-        <div class="contact-info col-lg-6">
+        <div class="contact-info col-lg-6 wow fadeInUp">
           <ul>
             <li><a href="https://www.linkedin.com/in/yonatan-palacios-5a5482203" target='_blank'>Linkedin</a></li>
             <hr />
@@ -152,7 +158,7 @@
           </ul>
         </div>
 
-        <div class="directions col-lg-6">
+        <div class="directions col-lg-6 wow fadeInUp">
           <p>
           <span>Argentina, Buenos Aires</span>
           <br />
@@ -161,12 +167,25 @@
           <p>
             <b>yonatanPalac@gmail.com</b>
           </p>
-          <div class="circle">
+          <div class="circle wow bounceIn">
             
           </div>
         </div>
       </div>
     </div>
-  
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script>
+    wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+  </script>
   </body>
 </html>
