@@ -305,8 +305,9 @@ code {
 		font-size: 23px;
 	}
 	.body .navbar {
-		background-color: rgba(0,0,0,.2);
 		z-index: 5000;
+		top: 0;
+		bottom: 100%;
 	}
 	.title-header {
 		text-align: center;
