@@ -1,4 +1,4 @@
-### HOlA! 👋
+### HOLA! 👋
 #Jonatan Palacios
 
 Siempre fui un apasionado de las computadoras. Trabajé durante cuatro años como técnico de forma autonoma hasta que en 2019 me tope con Nahual IT, donde aprendi a testear y vi una parte de las aplicaciones y webs que hasta entonces me parecia lejano.
