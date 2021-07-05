@@ -27,7 +27,19 @@ code {
   	width: 100%;
   	background-color: var(--grey);
 }
-
+.body .navbar {
+	position: fixed;
+	bottom: 0;
+}
+.body .navbar ul li {
+	left: 20px;
+	list-style: none;
+	margin-top: 20px;
+}
+.body .navbar ul li a {
+	color: #000;
+	font-size: 22px;
+}
 /*    HEADER     */
 .header .contenedor nav h5 {
 	font: var(--hcinco);
@@ -244,7 +256,8 @@ code {
 
 @media (max-width: 600px) {
 	.body .navbar {
-		display: none;
+		background-color: rgba(0,0,0,.2);
+		z-index: 5000;
 	}
 	.header .text-header h2 {
 		font-size: 40px;
