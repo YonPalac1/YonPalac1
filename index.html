@@ -38,9 +38,9 @@
         <div class="col nav">
           <nav>
               <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a data-scroll href="#projects">Projects</a></li>
+                <li><a  data-scroll href="#about">About</a></li>
+                <li><a data-scroll href="#contact">Contact</a></li>
               </ul>
           </nav>
         </div>
@@ -106,7 +106,7 @@
       </div> 
     </div>
     <div class="works">
-    <div class="container">
+    <div class="container" id="projects">
       <div class="works-title">
         <h3 class="wow fadeInLeftBig">WORKS</h3>
       </div>
@@ -118,7 +118,7 @@
     </div>
     </div>
     <div class="container">
-    <div class="row about">
+    <div class="row about" id="about">
       <h3 class="wow fadeInLeftBig">ABOUT ME</h3>
       <div class="col-lg-7 wow fadeInUp">
         <p>
@@ -138,6 +138,7 @@
           indistinguible de la magia”, y eso es lo que creo que hay que hacer 
           sentir a las personas.
         </p>
+        <button class="btn-download">Descargar CV</button>
       </div>
       <div class="col-lg-5 wow fadeInRight">
         <img src="img/foto.png" class="img-fluid" data-tilt />
@@ -145,7 +146,7 @@
     </div>
   </div>
 
-  <div class="contact container">
+  <div class="contact container" id="contact">
       <div class="contact-title">
         <h5 class="wow fadeInLeftBig">Contact</h5>
       </div>
@@ -162,12 +163,12 @@
 
         <div class="directions col-lg-6 wow fadeInUp">
           <p>
-          <span>Argentina, Buenos Aires</span>
-          <br />
-          <span><b>11-3936-6942</b></span>
+            <b>yonatanPalac@gmail.com</b>
           </p>
           <p>
-            <b>yonatanPalac@gmail.com</b>
+          <span><b>11-3936-6942</b></span>
+          <br />
+          <span>Argentina, Buenos Aires</span>
           </p>
           <div class="circle" data-tilt>
           </div>
@@ -177,6 +178,8 @@
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
   <script>
     wow = new WOW(
                       {
@@ -189,5 +192,12 @@
                     )
                     wow.init();
   </script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 500,
+  speedAsDuration: true
+});
+  </script>
+
   </body>
 </html>

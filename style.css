@@ -76,6 +76,11 @@ code {
 	justify-content: flex-end;
 	text-align: right;
 }
+.col.nav ul {
+	position: fixed;
+	right: 20px;
+	top: 30px;
+}
 .col.nav ul li {
 	list-style: none;
 }
@@ -167,7 +172,17 @@ code {
 .about p {
 	font-size: 20px;
 }
-
+.btn-download {
+	border: 2px solid var(--red);
+	color: var(--red);
+	background: none;
+	padding: 5px 10px 5px 10px;
+	transition: .5s;
+}
+.btn-download:hover {
+	background-color: var(--red);
+	color: var(--grey);
+}
 /*    WORKS      */
 .works {
 	margin-bottom: 200px;
