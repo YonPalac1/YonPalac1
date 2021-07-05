@@ -183,6 +183,7 @@ code {
 }
 .about p {
 	font-size: 20px;
+	text-align: justify;
 }
 .btn-download {
 	border: 2px solid var(--red);
@@ -190,6 +191,8 @@ code {
 	background: none;
 	padding: 5px 10px 5px 10px;
 	transition: .5s;
+	text-decoration: none;
+	margin-bottom: 20px;
 }
 .btn-download:hover {
 	background-color: var(--red);
