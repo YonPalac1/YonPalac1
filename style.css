@@ -276,6 +276,7 @@ header a:hover {
 	text-align: center;
 }
 .proyects h5 {
+	color: var(--white-bone);
 	font-size: 22px;
 }
 .proyects h5 span {
@@ -336,7 +337,9 @@ header a:hover {
 	flex-direction: column;
 	padding-top: 30px;
 }
-
+.break h3 {
+	color: var(--white-bone);
+}
 
 /*---------------------------*/
 /*      03 contact me      */

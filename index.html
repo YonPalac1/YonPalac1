@@ -23,6 +23,8 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js">
 
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
   </head>
   <body class="body">
     <nav class="navbar">
@@ -43,7 +45,7 @@
     </nav>
     <!-- Body Section -->
     <div class="container">
-      <nav class="nav-icons">
+      <nav class="nav-icons wow fadeIn">
           <a href="https://codepen.io/yonpalac1"target='_blank'><i class="fab fa-codepen"></i></a>
 
           <a href="https://github.com/YonPalac1"target='_blank'><i class="fab fa-github"></i></a>
@@ -54,7 +56,7 @@
 
         <div class="line"></div>
       </nav>
-      <header>
+      <header class="wow bounceInDown">
         <span>Hola, mi nombre es</span>
         <h2>Jonatan Palacios</h2>
         <h1>Construyo cosas para la web.</h1>
@@ -66,7 +68,7 @@
           <div class="col-lg-6"></div>
         </div>
       </header>
-      <div class="mail-line">
+      <div class="mail-line wow fadeIn">
         <a href="#">yonatanPalac@gmail.com</a>
         <div class="line"></div>
       </div>
@@ -75,7 +77,7 @@
       <!-- 01 -  About Me -->
       <section class="about-me" id="about">
         <div class="row">
-          <div class="col-lg-5 col-md-7 col-sm-8 mx-auto">
+          <div class="col-lg-5 col-md-7 col-sm-8 mx-auto wow bounceInLeft">
             <div class="title">
               <h3><span>01</span> - About me</h3>
               <div class="line"></div>
@@ -106,16 +108,16 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-5 col-sm-4 mx-auto my-auto">
-            <div class="img-box">
-              <img src="img/foto.png" class="img-fluid"> 
+            <div class="img-box wow bounceInUp">
+              <img src="img/foto.png" class="img-fluid thumbnail"> 
             </div>
           </div>
         </div>
       </section>
 
     <!-- Works section -->
-      <section class="w" id="works">
-        <div class="title">
+      <section class="w " id="works">
+        <div class="title wow bounceInLeft">
           <h3><span>02</span> - Works</h3>
           <div class="line"></div>
         </div>
@@ -123,14 +125,14 @@
           <div class="col-lg-10 mx-auto work">
             <div class="row">
               <div class="col-lg-6 col-md-6 responsive">
-                <div class="works">
+                <div class="works wow bounceInLeft">
                     <a href="http://shorashim.tk/" target="_blank">
                       <div class="filter"></div>
                       <img src="img/jaiedina.png" class="img-fluid">
                     </a>
                   </div>
               </div>
-              <div class="col-lg-6 col-md-6">
+              <div class="col-lg-6 col-md-6 wow bounceInUp">
                 <div class="works-description">
                     <div class="title-works">
                       <span>Trabajo</span>
@@ -151,7 +153,7 @@
             <div class="works-section-two">
               <div class="row">
                 <div class="col-lg-6 col-md-6">
-                  <div class="works-description left">
+                  <div class="works-description left wow bounceInLeft">
                     <div class="title-works left">
                       <span>Trabajo</span>
                       <h4>Shorashim</h4>
@@ -162,7 +164,7 @@
                     <a href="http://shorashim.tk/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 responsive">
+                <div class="col-lg-6 col-md-6 responsive wow bounceInUp">
                   <div class="works">
                     <a href="http://shorashim.tk/" target="_blank">
                       <div class="filter"></div>
@@ -177,7 +179,7 @@
       </section>
 
       <!-- Proyects -->
-      <section class="proyects">
+      <section class="proyects wow bounceInUp">
         <h3>Otros proyectos</h3>
         <h5>Esta sección está en desarrollo<span>_</span></h5>
         <div class="row mt-5">
@@ -220,15 +222,15 @@
         </div>
 
         <div class="row p-5 mt-5">
-          <div class="col-lg-6 break">
+          <div class="col-lg-6 break wow bounceInLeft">
             <h3>Poniendo algo de magia en la web</h3>
             <p></p>
             <p>Llevo más de un año y no recuerdo un dia en que el editor de código no haya sido abierto. La programación se convirtio en una rutina que me gusta alimentar cada dia. </p>
             <p>Antes de esta aventura y este desafio creia que mi vida iba a ser la constante búsqueda de un propósito. Hoy mi propósito es la tecnología y ayudar a la gente a programar sus ideas para que alcancen el mundo.</p>
           </div>
 
-          <div class="col-lg-6">
-            <img src="img/sunset.jpg" class="img-fluid">
+          <div class="col-lg-6 wow bounceInUp">
+            <img src="img/sunset.jpg" class="img-fluid thumbnail-paisaje" data-tilt>
           </div>
         </div>
       </section>
@@ -238,7 +240,7 @@
     <div class="container contact" id="contact">
       <section>
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7 wow bounceInUp">
             <div class="title">
               <h3><span>03</span> - Contact Me</h3>
               <div class="line"></div>
@@ -306,6 +308,22 @@
   speed: 500,
   speedAsDuration: true
 });
+  </script>
+  <script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image, {
+      delay: .6,
+      transition: 'cubic-bezier(0,0,0,1)',
+      overflow: true
+    });
+  </script>
+  <script>
+    var image = document.getElementsByClassName('thumbnail-paisaje');
+    new simpleParallax(image, {
+      delay: 1,
+      transition: 'cubic-bezier(0,0,0,1)',
+      orientation: 'right'
+    });
   </script>
 
   </body>
