@@ -70,6 +70,7 @@
           </div>
           <div class="col-lg-6"></div>
         </div>
+      <div id="particles-js"></div>
       </header>
       <div class="mail-line wow fadeIn">
         <a href="#">yonatanPalac@gmail.com</a>
@@ -112,7 +113,7 @@
           </div>
           <div class="col-lg-3 col-md-5 col-sm-4 mx-auto my-auto">
             <div class="img-box wow bounceInUp">
-              <img src="img/foto.png" class="img-fluid thumbnail"> 
+              <img class="thumbnail" id="my-img" src="img/fotobn.png" onmouseover="hover(this);" onmouseout="unhover(this);" />
             </div>
           </div>
         </div>
@@ -288,7 +289,17 @@
       </section>
     </div>
 
+  <script>
+    function hover(element) {
+      element.setAttribute('src', 'img/fotom.png');
+    }
 
+    function unhover(element) {
+      element.setAttribute('src', 'img/fotobn.png');
+    }
+  </script>
+  <script src="js/particles.js-master/particles.js"></script>
+  <script src="js/particles.js-master/js/app.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
@@ -338,6 +349,5 @@
       orientation: 'right'
     });
   </script>
-
   </body>
 </html>
