@@ -112,6 +112,8 @@ header {
 	height: 100vh;
 	font-family: var(--family);
 	color: var(--white);
+	background: rgb(31,44,78);
+background: radial-gradient(circle, rgba(31,44,78,1) 0%, rgba(27,37,64,1) 37%, rgba(22,29,48,1) 77%);
 }
 header span {
 	color: var(--blue-light);
