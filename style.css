@@ -393,6 +393,20 @@ header a:hover {
 	color: var(--blue-light);
 }
 
+.contact a.btn-mail {
+	padding: 8px 20px;
+	border-radius: 2px var(--border-radius);
+	color: var(--blue-light);
+	border: 2px solid var(--blue-light);
+	text-decoration: none;
+	transition: .5s;
+}	
+.contact a.btn-mail:hover {
+	background-color: rgba(22, 241, 255, .3);
+	background-opacity: .2;
+	color: var(--blue-light);
+}
+
 .redes-info {
 	display: flex;
 	text-align: center;
