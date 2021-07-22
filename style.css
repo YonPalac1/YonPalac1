@@ -20,13 +20,12 @@
 body.body {
 	background-color: var(--bg-body);
 }
-.container {
-	width: 1044px;
-}
+
 section {
 	padding-bottom: 100px;
 	color: var(--white);
 }
+
 /*-----------------------------*/
 /*            Navbar           */
 /*-----------------------------*/
@@ -404,6 +403,10 @@ header a:hover {
 	color: var(--blue-light);
 }
 
+.mail-button {
+	text-align: center;
+}
+
 .contact a.btn-mail {
 	padding: 8px 20px;
 	border-radius: 2px var(--border-radius);
@@ -465,10 +468,11 @@ header a:hover {
 		display: none;
 	}
 }
-@media (max-width: 770px) { 
+@media (max-width: 620px) { 
 	
-}
-@media (max-width: 360px) {
+	.navbar .logo {
+		display: none;
+	}
 	.nav-icons {
 		display: none;
 	}
@@ -478,6 +482,9 @@ header a:hover {
 	.navbar {
 		display: none;
 	}
+}
+@media (max-width: 400px) {
+	
 	header {
 		display: flex;
 		justify-content: center;

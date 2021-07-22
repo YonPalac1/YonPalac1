@@ -11,6 +11,7 @@
     <title>Jonatan Palacios | Desarrollador web</title>
     <link rel="icon" type="image/ico" href="img/favicon.ico">
 
+    
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -30,16 +31,23 @@
 
   </head>
   <body class="body">
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div> 
+            <div class="bounce3"></div>
+        </div>
+    </div>
     <nav class="navbar">
       <div class="logo">
         
       </div>
       <div class="nav-items">
-        <a href="#about"><span>01</span> - Acerca</a>
+        <a href="#about" class="scroll"><span>01</span> - Acerca</a>
 
-        <a href="#works"><span>02</span> - Proyectos</a>
+        <a href="#works" class="scroll"><span>02</span> - Proyectos</a>
 
-        <a href="#contact"><span>03</span> - Contacto</a>
+        <a href="#contact" class="scroll"><span>03</span> - Contacto</a>
 
          <a class="btn-download" 
            href="img/CV - Desarrollador Web - Jonatan Palacios.pdf"
@@ -112,8 +120,8 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-5 col-sm-4 mx-auto my-auto">
-            <div class="img-box wow bounceInUp">
-              <img class="thumbnail" id="my-img" src="img/fotobn.png"  />
+            <div class="img-box mx-auto mt-5 wow bounceInUp">
+              <img class="thumbnail" id="my-img" src="img/fotobn.png"/>
             </div>
           </div>
         </div>
@@ -266,11 +274,17 @@
               </div>
               <button type="submit" class="enviar" name="send">Enviar</button>
             </form> -->
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yonatanPalac@gmail.com" target='_blank' class="btn-mail">Enviar mail</a>
+            <div class="mail-button">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yonatanPalac@gmail.com" target='_blank' class="btn-mail">Enviar mail</a>
+            </div>
 
             <div class="redes-info pb-5">
               <span>Jonatan Palacios</span>
               <div class="redes">
+              <a href="https://codepen.io/yonpalac1"target='_blank'><i class="fab fa-codepen"></i></a>
+
+              <a href="https://github.com/YonPalac1"target='_blank'><i class="fab fa-github"></i></a>
+
               <a href="https://www.linkedin.com/in/yonatan-palacios-5a5482203" target="_blank"><i class="fab fa-linkedin"></i></a>
               <a href="https://api.whatsapp.com/send/?phone=5491139366942&app_absent=0" target='_blank'><i class="fab fa-whatsapp"></i></a>
 
@@ -293,7 +307,8 @@
       </section>
     </div>
 
-<!--   <script>
+    <script src="js/script.js"></script>
+  <!-- <script>
     function hover(element) {
       element.setAttribute('src', 'img/fotom.png');
     }
@@ -304,9 +319,11 @@
   </script> -->
   <script src="js/particles.js-master/particles.js"></script>
   <script src="js/particles.js-master/js/app.js"></script>
+  
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
   <script type="text/javascript">
     options = {
