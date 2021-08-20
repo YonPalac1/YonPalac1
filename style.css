@@ -484,7 +484,9 @@ header a:hover {
 	}
 }
 @media (max-width: 400px) {
-	
+	nav.navbar .nav-items a:nth-child(1){
+		display:none;
+	}
 	header {
 		display: flex;
 		justify-content: center;
