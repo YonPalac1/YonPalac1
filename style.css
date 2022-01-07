@@ -296,6 +296,51 @@ header a:hover {
 .break p {
 	color: var(--white);
 }
+
+/*---------------------------*/
+/*      Modals              */
+/*---------------------------*/
+.modal-works {
+	position: fixed;
+	background-color: rgba(0, 0, 0, .8);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9000;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.modal-works.active {
+	display: flex;
+}
+.modal-img {
+	background: var(--blue-dark);
+	max-height: 90vh;
+}
+.modal-img button {
+	font-size: 23px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: none;
+	border: none;
+	color: var(--white);
+}
+.modal-img a {
+	text-decoration: none;
+}
+.modal-img h4 {
+	color: var(--white);
+}
+.modal-img h4:hover {
+	color: var(--blue-light);
+}
+.modal-img h3 {
+	padding: 20px 0;
+}
+
 /*---------------------------*/
 /*      03 contact me      */
 /*---------------------------*/
