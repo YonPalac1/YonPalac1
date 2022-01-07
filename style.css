@@ -192,89 +192,32 @@ header a:hover {
 }
 
 /*    Works section    */
-.works-section {
-	display: flex;
-	align-items: center;
-	padding:30px;
-}
-.works {
+.works a {
 	position: relative;
 }
-.works .filter {
+.works i  {
 	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(22, 241, 255, .3);
-	transition: .5s;
-}
-.works .filter:hover {
-	opacity: 0;
-}
-.title-works {
-	margin-right:220px;
-	text-align: right;
-}
-.title-works.left {
-	text-align: left;
-}
-
-.title-works span {
-	color: var(--blue-light);
-}
-.title-works h4 {
-	color: var(--white);
-	font-size: 30px;
-}
-.works-description {
-	z-index: 5000;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	height: 100%;
-	margin-left: -200px;
-}
-.works-description .description {
-	background-color: var(--blue-dark);
-	width: 500px;
-	padding: 10px 12px;
-	color: var(--white);
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.48);
-	z-index: 5000;
-}
-.works-description a {
-	display: block;
-	text-align: right;
-	color: var(--white);
-	padding: 8px;
 	font-size: 22px;
-	transition: .5s;
-	margin-right: 220px;
+	right: 20px;
 }
-.works-description a:hover {
+.works a:hover i {
+	color: var(--white-bone);
+}
+.description h4 {
+	color: var(--white-bone);
+}
+.description span {
+	font-weight: bold;
+}
+.description a {
+	color: var(--white);
+}
+.description ul li {
+	list-style: none;
+}
+.description ul li i {
 	color: var(--blue-light);
 }
-
-/*    Works section two   */
-.works-section-two .works-description {
-	text-align: left;	
-}
-.works-description.left {
-	z-index: 5000;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	height: 100%;
-	margin-left: 200px;
-}
-.works-description.left a {
-	text-align: left;
-}
-
-
 
 /*---------------------------*/
 /*      Otros Proyectos      */
@@ -332,11 +275,13 @@ header a:hover {
 .box-proyects i.fa-external-link-alt:hover {
 	color: var(--blue-light);
 }
-.box-proyects a {
+.box-proyects button {
 	color: var(--white-bone);
 	text-decoration: none;
+	background: none;
+	border: none;
 }
-.box-proyects a:hover {
+.box-proyects button:hover {
 	color: var(--white-bone);
 }
 .break {
@@ -348,17 +293,8 @@ header a:hover {
 .break h3 {
 	color: var(--white-bone);
 }
-.developing {
-	position: relative;
-}
-
-.developing-div {
-	position: absolute;
-	background-color: rgba(0, 0, 0, .5);
-	height: 110%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.break p {
+	color: var(--white);
 }
 /*---------------------------*/
 /*      03 contact me      */
@@ -458,6 +394,11 @@ header a:hover {
 	width: 100%;
 }
 
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 
 /*       MEDIA QUERY       */
 @media (max-width: 770px) { 
