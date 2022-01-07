@@ -203,6 +203,9 @@ header a:hover {
 .works a:hover i {
 	color: var(--white-bone);
 }
+.description {
+	text-align: left;
+}
 .description h4 {
 	color: var(--white-bone);
 }
@@ -455,7 +458,9 @@ header a:hover {
 	}
 }
 @media (max-width: 620px) { 
-	
+	.description {
+		text-align: center;
+	}
 	.navbar .logo {
 		display: none;
 	}
