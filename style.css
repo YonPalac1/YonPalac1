@@ -199,10 +199,16 @@ header a:hover {
 	position: absolute;
 	font-size: 22px;
 	right: 20px;
+	margin-top: 15px;
 }
 .works a:hover i {
 	color: var(--white-bone);
 }
+.works .img-fluid {
+	height: 250px;
+	width: 100%;
+}
+
 .description {
 	text-align: left;
 }
@@ -415,7 +421,7 @@ header a:hover {
 	text-align: center;
 }
 .redes-info .redes i {
-	font-size: 22px;
+	font-size: 25px;
 	padding: 10px;
 	color: var(--white);
 }
@@ -423,6 +429,10 @@ header a:hover {
 	color: var(--white);
 	text-decoration: none;
 }
+.redes-info .redes i:hover {
+	color:	var(--blue-light); 
+}
+
 .map-section {
 	position: relative;
 }
@@ -446,6 +456,7 @@ header a:hover {
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
+	margin-top: 5rem; 
 }
 
 /*       MEDIA QUERY       */
