@@ -19,6 +19,9 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
+import PREVIEW from './assets/img/projects/preview.png';
+import PDR from './assets/img/projects/PDR.png';
+
 
 // navigation
 export const navigation = [
@@ -82,7 +85,7 @@ export const social = [
 export const projectsData = [
   {
     id: '1',
-    image: 'https://github.com/YonPalac1/YonPalac1/raw/main/img/preview.png',
+    image: PREVIEW,
     name: 'El Baron de la Cerveza',
     category: 'Ecommerce',
     skills: 'Express - Node - Javascript - Api - Css - MVC - MySql - Scrum',
@@ -90,7 +93,7 @@ export const projectsData = [
   },
   {
     id: '2',
-    image: 'https://github.com/YonPalac1/YonPalac1/blob/main/img/PDR.png?raw=true',
+    image: PDR,
     name: 'Pizzeria don Remolo',
     category: 'Ecommerce',
     skills: 'React - Redux - Api Rest - Css - Mongoose - Scrum',
