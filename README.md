@@ -1,20 +1,6 @@
-### HOLA! 👋
-# Soy Jonatan
-## y hago cosas para la web
+# Responsive Portfolio Website using ReactJS & Tailwind CSS.
+## [Watch it on youtube](https://www.youtube.com/watch?v=mfpEn52dD5k)
+### Responsive Portfolio Website using ReactJS & Tailwind CSS.
+Don't forget to subscribe to the channel to see more videos like this. [Cristian Mihai](https://www.youtube.com/channel/UC5dPmW7ZTsLyIqd-M4cs8EA)
 
-Soy desarrollador y estoy constantemente pegado a un teclado para mejorar mis habilidades. A finales de 2019 estudié en el centro de entrenamiento en diseño, desarrollo y programación web donde obtuve herramientas que explotaron mi potencial. Este año (2021) gané la beca para hacer un curso intensivo en DIGITAL HOUSE durante siete meses. Codear se convirtió en una rutina estricta que me gusta alimentar cada dia y espero encontrar un lugar donde seguir aprendiendo y trabajar de lo que mas disfruto hacer.
-
-## Herramientas
-- nodeJs
-- Express
-- HTML
-- CSS
-- MySql
-- React
-- Rest
-- MVC
-- Git
-- GitHub
-- Metodologías ágiles
-- Scrum
-- Inglés B1
+![](preview.png)
