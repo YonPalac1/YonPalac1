@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
 
 // import data
-import { projectsData } from '../data';
-import { projectsNav } from '../data';
+import { projectsData, projectsNav } from '../data';
 
 // import components
 import Project from './Project';
+import { Modal } from './Modal';
 
 const Projects = () => {
+  
+  const showModal = useSelector(state => state.data.modal);
   const [item, setItem] = useState({ name: 'all' });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
-
+  
   useEffect(() => {
     // get projects based on item
     if (item.name === 'all') {
@@ -31,6 +34,9 @@ const Projects = () => {
 
   return (
     <div>
+      { showModal && (
+        <Modal  />
+      )}
       {/* projects nav */}
       <nav className='mb-12 max-w-xl mx-auto'>
         <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>

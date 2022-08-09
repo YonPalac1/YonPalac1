@@ -19,13 +19,35 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
+// Projects
 import PREVIEW from './assets/img/projects/preview.png';
 import PDR from './assets/img/projects/previews.png';
 import SW from './assets/img/projects/starwars.png';
 
+// Certicates
 import Alkemy from './assets/img/certificies/alkemy.png';
 import Digital from './assets/img/certificies/digital.png';
 
+// Previews EBDLC
+import IMG1 from './assets/img/projects/1/1.png';
+import IMG2 from './assets/img/projects/1/2.png';
+import IMG3 from './assets/img/projects/1/3.png';
+import IMG4 from './assets/img/projects/1/4.png';
+import IMG5 from './assets/img/projects/1/5.png';
+// Previews PDR
+import IMG6 from './assets/img/projects/2/1.png';
+import IMG7 from './assets/img/projects/2/2.png';
+import IMG8 from './assets/img/projects/2/3.png';
+import IMG9 from './assets/img/projects/2/4.png';
+import IMG10 from './assets/img/projects/2/5.png';
+import IMG11 from './assets/img/projects/2/6.png';
+import IMG12 from './assets/img/projects/2/7.png';
+import IMG13 from './assets/img/projects/2/8.png';
+import IMG14 from './assets/img/projects/2/9.png';
+// Previews SW
+import IMG15 from './assets/img/projects/3/1.png';
+import IMG16 from './assets/img/projects/3/2.png';
+import IMG17 from './assets/img/projects/3/3.png';
 
 // navigation
 export const navigation = [
@@ -96,7 +118,7 @@ export const social = [
 // projects
 export const projectsData = [
   {
-    id: '1',
+    id: 0,
     image: PREVIEW,
     name: 'El Baron de la Cerveza',
     category: 'Ecommerce',
@@ -104,7 +126,7 @@ export const projectsData = [
     repository: 'https://github.com/YonPalac1/Baron_de_la_cerveza'
   },
   {
-    id: '2',
+    id: 1,
     image: PDR,
     name: 'Pizzeria don Remolo',
     category: 'Ecommerce',
@@ -112,7 +134,7 @@ export const projectsData = [
     repository: 'https://pizzeria-remolo-1d5bfc.netlify.app/'
   },
   {
-    id: '3',
+    id: 2,
     image: SW,
     name: 'Star wars planets',
     category: 'React',
@@ -184,6 +206,15 @@ export const skills = [
     alt: 'FIGMA'
   },
 ];
+
+// Projects photos
+export const imagesProjects = [
+  { images: [IMG1,IMG2,IMG3,IMG4,IMG5] },
+  { images: [IMG6,IMG7,IMG8,IMG9,IMG10,IMG11,IMG12,IMG13,IMG14] },
+  { images: [IMG15,IMG16,IMG17] }
+];
+ 
+
 
 // contact
 export const contact = [
