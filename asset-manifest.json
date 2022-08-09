@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YonPalac1/static/css/main.9bdd5d95.css",
-    "main.js": "/YonPalac1/static/js/main.c8c5079b.js",
+    "main.css": "/YonPalac1/static/css/main.592d3057.css",
+    "main.js": "/YonPalac1/static/js/main.07e4fa50.js",
     "static/media/sunset.jpg": "/YonPalac1/static/media/sunset.5037727b1a63734c1588.jpg",
     "static/media/preview.png": "/YonPalac1/static/media/preview.ca336ca02f229e86cf01.png",
     "static/media/previews.png": "/YonPalac1/static/media/previews.3a73ff4dd3c740831603.png",
@@ -10,15 +10,16 @@
     "static/media/foto.png": "/YonPalac1/static/media/foto.c0846bb73936e0dcbec2.png",
     "static/media/digital.png": "/YonPalac1/static/media/digital.c81e1681fb2708eaea40.png",
     "static/media/alkemy.png": "/YonPalac1/static/media/alkemy.6a6ce8db593995dd8d32.png",
+    "static/media/services.svg": "/YonPalac1/static/media/services.2d6c88f25842315ca095.svg",
     "static/media/portfolio.svg": "/YonPalac1/static/media/portfolio.2f31f4be113e35cc3442.svg",
     "static/media/contact.svg": "/YonPalac1/static/media/contact.ec60abf53c38c2593f7e.svg",
     "static/media/about.svg": "/YonPalac1/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/YonPalac1/index.html",
-    "main.9bdd5d95.css.map": "/YonPalac1/static/css/main.9bdd5d95.css.map",
-    "main.c8c5079b.js.map": "/YonPalac1/static/js/main.c8c5079b.js.map"
+    "main.592d3057.css.map": "/YonPalac1/static/css/main.592d3057.css.map",
+    "main.07e4fa50.js.map": "/YonPalac1/static/js/main.07e4fa50.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bdd5d95.css",
-    "static/js/main.c8c5079b.js"
+    "static/css/main.592d3057.css",
+    "static/js/main.07e4fa50.js"
   ]
 }
