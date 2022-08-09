@@ -3,6 +3,7 @@ import {  useSelector } from "react-redux";
 
 // import woman image
 import codingImg from '../assets/img/foto.png';
+import { ParticlesComp } from './ParticlesComp';
 
 const Hero = () => {
   const data = useSelector((state) => state.data.data)
@@ -10,8 +11,9 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='lg:h-[85vh] flex items-center bg-primary lg:h-screen lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
+    {/* <ParticlesComp /> */}
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>

@@ -20,7 +20,11 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
 import PREVIEW from './assets/img/projects/preview.png';
-import PDR from './assets/img/projects/PDR.png';
+import PDR from './assets/img/projects/previews.png';
+import SW from './assets/img/projects/starwars.png';
+
+import Alkemy from './assets/img/certificies/alkemy.png';
+import Digital from './assets/img/certificies/digital.png';
 
 
 // navigation
@@ -36,6 +40,10 @@ export const navigation = [
   {
     name: 'portfolio',
     href: 'portfolio',
+  },
+  {
+    name: 'certificates',
+    href: 'certificates',
   },
   {
     name: 'contact',
@@ -54,6 +62,10 @@ export const navigationEsp = [
   {
     name: 'portafolio',
     href: 'portfolio',
+  },
+  {
+    name: 'certificados',
+    href: 'certificates',
   },
   {
     name: 'contacto',
@@ -101,11 +113,11 @@ export const projectsData = [
   },
   {
     id: '3',
-    image: 'https://github.com/YonPalac1/star-wars-planets/raw/master/src/assets/img/vp.png',
+    image: SW,
     name: 'Star wars planets',
     category: 'React',
     skills: 'React - Redux - Redux thunk - Styled Components - Material UI - Axios',
-    repository: 'https://github.com/YonPalac1/star-wars-planets/blob/master/src/assets/img/vp.png?raw=true'
+    repository: 'https://vigorous-meninsky-264e9a.netlify.app/'
   },
 ];
 
@@ -123,6 +135,18 @@ export const projectsNav = [
   {
     name: 'Next',
   },
+];
+
+// certificies
+export const certificies = [
+  {
+    name: 'Alkemy - Certificate',
+    image: Alkemy,
+  },
+  {
+    name: 'Digital House - Certificate',
+    image: Digital,
+  }
 ];
 
 // skill
@@ -197,7 +221,7 @@ export const ingles = [{
     imhere: "I am here to help you.",
     emailme: "Email me at",
     currentLocation: "Current Location",
-
+    certificates: "certificates"
   }];
 export const español = [{
     lenguage: 'ENG',
@@ -212,5 +236,6 @@ export const español = [{
     imhere: "I am here to help you.",
     emailme: "Email me at",
     currentLocation: "Current Location",
+    certificates: "certificados"
 
   }];

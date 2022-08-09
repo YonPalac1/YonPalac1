@@ -11,6 +11,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackTopBtn from './components/BackTopBtn';
+import Certificies from './components/Certificies';
 
 const App = () => {
   const store = generateStore()
@@ -22,6 +23,7 @@ const App = () => {
         <About />
         <Skills />
         <Portfolio />
+        <Certificies />
         <Contact />
         <Footer />
         <BackTopBtn />
