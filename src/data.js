@@ -34,6 +34,7 @@ import IMG2 from './assets/img/projects/1/2.png';
 import IMG3 from './assets/img/projects/1/3.png';
 import IMG4 from './assets/img/projects/1/4.png';
 import IMG5 from './assets/img/projects/1/5.png';
+import IMG18 from './assets/img/projects/1/6.png';
 // Previews PDR
 import IMG6 from './assets/img/projects/2/1.png';
 import IMG7 from './assets/img/projects/2/2.png';
@@ -209,7 +210,7 @@ export const skills = [
 
 // Projects photos
 export const imagesProjects = [
-  { images: [IMG1,IMG2,IMG3,IMG4,IMG5] },
+  { images: [IMG1,IMG2,IMG3,IMG4,IMG5,IMG18] },
   { images: [IMG6,IMG7,IMG8,IMG9,IMG10,IMG11,IMG12,IMG13,IMG14] },
   { images: [IMG15,IMG16,IMG17] }
 ];
