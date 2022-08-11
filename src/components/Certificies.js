@@ -16,10 +16,11 @@ const Certificies = () => {
           </h2>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>
+          <div></div>
           {certificies.map((cer, index) => {
             const { name, image } = cer;
             return (
-              <div className='p-6 rounded-2xl' key={index}>
+              <div className='p-6 rounded-2xl cursor-pointer' key={index}>
                 <div className='text-accent rounded-sm flex justify-center items-center text-[28px]'>
                   <img src={image} />
                 </div>
@@ -27,6 +28,7 @@ const Certificies = () => {
               </div>
             );
           })}
+          <div></div>
         </div>
       </div>
     </section>
