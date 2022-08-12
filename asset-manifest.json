@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YonPalac1/static/css/main.c1f2aa4b.css",
-    "main.js": "/YonPalac1/static/js/main.25b431fb.js",
+    "main.js": "/YonPalac1/static/js/main.1190b30e.js",
     "static/media/sunset.jpg": "/YonPalac1/static/media/sunset.5037727b1a63734c1588.jpg",
     "static/media/1.png": "/YonPalac1/static/media/1.6a9f0e9e62292682c376.png",
     "static/media/preview.png": "/YonPalac1/static/media/preview.66544855d554907384ff.png",
@@ -10,7 +10,7 @@
     "static/media/starwars.png": "/YonPalac1/static/media/starwars.195ead507b64d1ea2839.png",
     "static/media/4.png": "/YonPalac1/static/media/4.dba2e4b305905bd1e291.png",
     "static/media/9.png": "/YonPalac1/static/media/9.9e8da46c123f6910250c.png",
-    "static/media/Web developer - Jonatan Palacios CV.pdf": "/YonPalac1/static/media/Web developer - Jonatan Palacios CV.1cc3a7b8c93d555fda51.pdf",
+    "static/media/Web developer - Jonatan Palacios CV.pdf": "/YonPalac1/static/media/Web developer - Jonatan Palacios CV.3fd40bd17d1315869147.pdf",
     "static/media/foto.png": "/YonPalac1/static/media/foto.c0846bb73936e0dcbec2.png",
     "static/media/3.png": "/YonPalac1/static/media/3.2716406e9c8997ea0437.png",
     "static/media/digital.png": "/YonPalac1/static/media/digital.c81e1681fb2708eaea40.png",
@@ -25,10 +25,10 @@
     "static/media/about.svg": "/YonPalac1/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/YonPalac1/index.html",
     "main.c1f2aa4b.css.map": "/YonPalac1/static/css/main.c1f2aa4b.css.map",
-    "main.25b431fb.js.map": "/YonPalac1/static/js/main.25b431fb.js.map"
+    "main.1190b30e.js.map": "/YonPalac1/static/js/main.1190b30e.js.map"
   },
   "entrypoints": [
     "static/css/main.c1f2aa4b.css",
-    "static/js/main.25b431fb.js"
+    "static/js/main.1190b30e.js"
   ]
 }
