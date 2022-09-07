@@ -18,7 +18,7 @@ const App = () => {
       <div className='bg-primary relative'>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/YonPalac1/" element={<Home />} />
           <Route path="/project" element={<Project />} />
         </Routes>  
       </BrowserRouter>
