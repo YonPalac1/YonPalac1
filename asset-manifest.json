@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YonPalac1/static/css/main.c1f2aa4b.css",
-    "main.js": "/YonPalac1/static/js/main.1190b30e.js",
+    "main.css": "/YonPalac1/static/css/main.75693cce.css",
+    "main.js": "/YonPalac1/static/js/main.e448b05d.js",
     "static/media/sunset.jpg": "/YonPalac1/static/media/sunset.5037727b1a63734c1588.jpg",
     "static/media/1.png": "/YonPalac1/static/media/1.6a9f0e9e62292682c376.png",
     "static/media/preview.png": "/YonPalac1/static/media/preview.66544855d554907384ff.png",
@@ -9,8 +9,8 @@
     "static/media/previews.png": "/YonPalac1/static/media/previews.3a73ff4dd3c740831603.png",
     "static/media/starwars.png": "/YonPalac1/static/media/starwars.195ead507b64d1ea2839.png",
     "static/media/4.png": "/YonPalac1/static/media/4.dba2e4b305905bd1e291.png",
+    "static/media/Web developer - Jonatan Palacios CV.pdf": "/YonPalac1/static/media/Web developer - Jonatan Palacios CV.c6ef3ad540864b44a417.pdf",
     "static/media/9.png": "/YonPalac1/static/media/9.9e8da46c123f6910250c.png",
-    "static/media/Web developer - Jonatan Palacios CV.pdf": "/YonPalac1/static/media/Web developer - Jonatan Palacios CV.3fd40bd17d1315869147.pdf",
     "static/media/foto.png": "/YonPalac1/static/media/foto.c0846bb73936e0dcbec2.png",
     "static/media/3.png": "/YonPalac1/static/media/3.2716406e9c8997ea0437.png",
     "static/media/digital.png": "/YonPalac1/static/media/digital.c81e1681fb2708eaea40.png",
@@ -19,16 +19,19 @@
     "static/media/8.png": "/YonPalac1/static/media/8.3c8f19b57425faee60e6.png",
     "static/media/7.png": "/YonPalac1/static/media/7.4adfd5b51564607b39ce.png",
     "static/media/alkemy.png": "/YonPalac1/static/media/alkemy.6a6ce8db593995dd8d32.png",
+    "static/media/revicons.eot": "/YonPalac1/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/YonPalac1/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/portfolio.svg": "/YonPalac1/static/media/portfolio.2f31f4be113e35cc3442.svg",
     "static/media/contact.svg": "/YonPalac1/static/media/contact.ec60abf53c38c2593f7e.svg",
     "static/media/services.svg": "/YonPalac1/static/media/services.25e0d3f4018e02ebe81a.svg",
+    "static/media/revicons.woff": "/YonPalac1/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/about.svg": "/YonPalac1/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/YonPalac1/index.html",
-    "main.c1f2aa4b.css.map": "/YonPalac1/static/css/main.c1f2aa4b.css.map",
-    "main.1190b30e.js.map": "/YonPalac1/static/js/main.1190b30e.js.map"
+    "main.75693cce.css.map": "/YonPalac1/static/css/main.75693cce.css.map",
+    "main.e448b05d.js.map": "/YonPalac1/static/js/main.e448b05d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f2aa4b.css",
-    "static/js/main.1190b30e.js"
+    "static/css/main.75693cce.css",
+    "static/js/main.e448b05d.js"
   ]
 }
