@@ -1,9 +1,8 @@
 import React from 'react';
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 // import contact data
 import { contact } from '../data';
-import Socials from './Socials';
 
 
 const Contact = () => {

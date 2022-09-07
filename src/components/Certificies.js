@@ -22,7 +22,7 @@ const Certificies = () => {
             return (
               <div className='p-6 rounded-2xl cursor-pointer' key={index}>
                 <div className='text-accent rounded-sm flex justify-center items-center text-[28px]'>
-                  <img src={image} />
+                  <img src={image} alt="certificcado" />
                 </div>
                 <p>{name}</p>
               </div>
