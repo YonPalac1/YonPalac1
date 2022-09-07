@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YonPalac1/static/css/main.75693cce.css",
-    "main.js": "/YonPalac1/static/js/main.e448b05d.js",
+    "main.css": "/YonPalac1/static/css/main.b3205396.css",
+    "main.js": "/YonPalac1/static/js/main.e77c7243.js",
     "static/media/sunset.jpg": "/YonPalac1/static/media/sunset.5037727b1a63734c1588.jpg",
     "static/media/1.png": "/YonPalac1/static/media/1.6a9f0e9e62292682c376.png",
     "static/media/preview.png": "/YonPalac1/static/media/preview.66544855d554907384ff.png",
@@ -27,11 +27,11 @@
     "static/media/revicons.woff": "/YonPalac1/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/about.svg": "/YonPalac1/static/media/about.70a8290c961c47c208b5.svg",
     "index.html": "/YonPalac1/index.html",
-    "main.75693cce.css.map": "/YonPalac1/static/css/main.75693cce.css.map",
-    "main.e448b05d.js.map": "/YonPalac1/static/js/main.e448b05d.js.map"
+    "main.b3205396.css.map": "/YonPalac1/static/css/main.b3205396.css.map",
+    "main.e77c7243.js.map": "/YonPalac1/static/js/main.e77c7243.js.map"
   },
   "entrypoints": [
-    "static/css/main.75693cce.css",
-    "static/js/main.e448b05d.js"
+    "static/css/main.b3205396.css",
+    "static/js/main.e77c7243.js"
   ]
 }
