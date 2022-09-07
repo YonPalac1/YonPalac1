@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Parallax, Background  } from 'react-parallax';
+import { Parallax } from 'react-parallax';
+
 // import img
 import Image from "../assets/img/sunset.jpg";
 
