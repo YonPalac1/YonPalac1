@@ -60,3 +60,19 @@
   position: absolute;
   overflow-y: hidden;
 }
+.body-project {
+  padding-top: 200px;
+}
+
+@keyframes example {
+  0%   {top:0px;}
+  50% {top:-30px;}
+  100%   {top:0px;}
+}
+.animation {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // import components
 import Logo from '../assets/img/yona.png';
@@ -23,9 +24,9 @@ const Header = () => {
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
-        <a href='#'>
+        <Link to='/'>
           <img className="w-32" src={Logo} alt='' />
-        </a>
+        </Link>
         {/* nav */}
         <div className='hidden lg:block'>
           <Nav />

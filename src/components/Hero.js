@@ -3,7 +3,6 @@ import {  useSelector } from "react-redux";
 
 // import woman image
 import codingImg from '../assets/img/foto.png';
-import { ParticlesComp } from './ParticlesComp';
 
 const Hero = () => {
   const data = useSelector((state) => state.data.data)
@@ -31,7 +30,7 @@ const Hero = () => {
             </button> */}
           </div>
           <div className='hidden lg:flex flex-1 h-full'>
-            <img className="scale-75 " src={codingImg} alt='' />
+            <img className="scale-75 animation" src={codingImg} alt='' />
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { modalChange, projectData } from '../redux/dataReducer';
 
 
@@ -12,7 +13,7 @@ const Project = ({ item }) => {
   }
 
   return (
-    <div onClick={() => handleSelected(item.id)}>
+    <Link onClick={() => handleSelected(item.id)} to='/project'>
       <div className='mb-8'>
           <img className='rounded-2xl' src={item.image} alt='' />
       </div>
@@ -22,7 +23,7 @@ const Project = ({ item }) => {
         {item.skills}
       </p><br />
       <a className='text-white hover:text-accent cursor-pointer' href={item.repository}>Visitar</a>
-    </div>
+    </Link>
   );
 };
 
