@@ -76,3 +76,9 @@
   animation-delay: 2s;
   animation-iteration-count: infinite
 }
+
+
+/* CANVAS */
+canvas#canvas {
+  position: absolute;
+}
