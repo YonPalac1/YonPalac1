@@ -1,30 +1,22 @@
-import React from 'react';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import {Provider} from 'react-redux'
-import generateStore from './redux/store';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
-import Project from './pages/Project';
+import Home from './layout/Home';
+import Examples from './layout/Examples';
+import { AppProvider } from './context/AppContext';
 
-
-const App = () => {
-  const store = generateStore()
+function App() {
   return (
-    <Provider store = {store}>
-      <div className='bg-primary relative'>
+    <div>
+    <AppProvider>
       <BrowserRouter>
-        <Routes>
-          <Route path="/YonPalac1/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
-        </Routes>  
+      <Routes>
+        <Route element={<Home />} path="/" />
+        <Route element={<Examples />} path="/projects-examples" />
+      </Routes>
       </BrowserRouter>
-      </div>
-    </Provider>
+    </AppProvider>
+    </div>
   );
-};
+}
 
 export default App;

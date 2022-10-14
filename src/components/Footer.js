@@ -1,36 +1,27 @@
-import React from 'react';
+import { Container, Row, Col } from "react-bootstrap";
+import { MailchimpForm } from "./MailchimpForm";
+import logo from "../assets/img/logo.svg";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 
-// import social data
-import { social } from '../data';
-
-// import logo
-import Logo from '../assets/img/yona.png';
-
-const Footer = () => {
+export const Footer = () => {
   return (
-    <footer className='bg-tertiary py-12'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
-          <div className='flex space-x-6 items-center justify-center'>
-            {social.map((item, index) => {
-              const { href, icon } = item;
-              return (
-                <a className='text-accent text-base' href={href} key={index}>
-                  {icon}
-                </a>
-              );
-            })}
-          </div>
-          <div>
-            <img className="w-32" src={Logo} alt='' />
-          </div>
-          <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Jonatan Palacios
-          </p>
-        </div>
-      </div>
+    <footer className="footer">
+      <Container>
+        <Row className="align-items-center">
+          <Col size={12} sm={6}>
+          </Col>
+          <Col size={12} sm={6} className="text-center text-sm-end">
+            <div className="social-icon">
+              <a href="#"><img src={navIcon1} alt="Icon" /></a>
+              <a href="#"><img src={navIcon2} alt="Icon" /></a>
+              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+            </div>
+            <p>Copyright 2022. All Rights Reserved</p>
+          </Col>
+        </Row>
+      </Container>
     </footer>
-  );
-};
-
-export default Footer;
+  )
+}
