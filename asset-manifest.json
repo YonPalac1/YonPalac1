@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YonPalac1/static/css/main.9020edcd.css",
-    "main.js": "/YonPalac1/static/js/main.1e7a9968.js",
+    "main.js": "/YonPalac1/static/js/main.350f85a3.js",
     "static/js/787.fb771931.chunk.js": "/YonPalac1/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/YonPalac1/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img1.png": "/YonPalac1/static/media/project-img1.2326b380d0f1f20a19d5.png",
@@ -31,11 +31,11 @@
     "index.html": "/YonPalac1/index.html",
     "static/media/nav-icon1.svg": "/YonPalac1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.9020edcd.css.map": "/YonPalac1/static/css/main.9020edcd.css.map",
-    "main.1e7a9968.js.map": "/YonPalac1/static/js/main.1e7a9968.js.map",
+    "main.350f85a3.js.map": "/YonPalac1/static/js/main.350f85a3.js.map",
     "787.fb771931.chunk.js.map": "/YonPalac1/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9020edcd.css",
-    "static/js/main.1e7a9968.js"
+    "static/js/main.350f85a3.js"
   ]
 }
