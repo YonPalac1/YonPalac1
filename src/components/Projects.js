@@ -24,6 +24,7 @@ import examplep8 from "../assets/img/projects/project2/8.png";
 import examplep9 from "../assets/img/projects/project2/9.png";
 
 import projImg3 from "../assets/img/projects/project3/project-img3.png";
+import projImg4 from "../assets/img/projects/project4/img1.png";
 
 export const Projects = () => {
 
@@ -42,7 +43,8 @@ export const Projects = () => {
       type: "Delivery App",
       description: "FrontEnd dev",
       imgUrl: projImg2,
-      images: [examplep1, examplep2, examplep3, examplep4, examplep5, examplep6, examplep7, examplep8, examplep9]
+      images: [examplep1, examplep2, examplep3, examplep4, examplep5, examplep6, examplep7, examplep8, examplep9],
+      web: "https://pizzeria-remolo-1d5bfc.netlify.app/", 
     },
     {
       id: 3,
@@ -50,6 +52,14 @@ export const Projects = () => {
       type: "Api Star Wars",
       description: "Design & Development",
       imgUrl: projImg3,
+    },
+    {
+      id: 4,
+      title: "Effects",
+      type: "Canvas effects",
+      description: "Efectos on mouse",
+      imgUrl: projImg4,
+      web: "https://canvas-proyects-8n2g.vercel.app/", 
     },
   ];
 
