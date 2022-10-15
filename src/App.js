@@ -10,7 +10,7 @@ function App() {
     <AppProvider>
       <BrowserRouter>
       <Routes>
-        <Route element={<Home />} path="/" />
+        <Route element={<Home />} path="/YonPalac1/" />
         <Route element={<Examples />} path="/projects-examples" />
       </Routes>
       </BrowserRouter>
