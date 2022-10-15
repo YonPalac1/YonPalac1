@@ -19,7 +19,7 @@ export const ProjectCard = ({ title, type, description, imgUrl, images, web }) =
         <img src={imgUrl} />
         {
           web ?
-          <a href="https://canvas-proyects-8n2g.vercel.app/">
+          <a href={`${web}`} target='_blank'>
           <div className="proj-txtx text-white">
             <h4>{type}</h4>
             <span>{description}</span>
