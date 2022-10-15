@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/YonPalac1/static/css/main.9020edcd.css",
-    "main.js": "/YonPalac1/static/js/main.350f85a3.js",
+    "main.js": "/YonPalac1/static/js/main.bdc9719f.js",
     "static/js/787.fb771931.chunk.js": "/YonPalac1/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/YonPalac1/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img1.png": "/YonPalac1/static/media/project-img1.2326b380d0f1f20a19d5.png",
     "static/media/color-sharp2.png": "/YonPalac1/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/2.png": "/YonPalac1/static/media/2.ae36826ae9c22f630a47.png",
     "static/media/project-img3.png": "/YonPalac1/static/media/project-img3.195ead507b64d1ea2839.png",
+    "static/media/img1.png": "/YonPalac1/static/media/img1.d65b6f5e14076b0266f1.png",
     "static/media/3.png": "/YonPalac1/static/media/3.2716406e9c8997ea0437.png",
     "static/media/1.png": "/YonPalac1/static/media/1.fc20ce33d4353311cf19.png",
     "static/media/9.png": "/YonPalac1/static/media/9.9e8da46c123f6910250c.png",
@@ -31,11 +32,11 @@
     "index.html": "/YonPalac1/index.html",
     "static/media/nav-icon1.svg": "/YonPalac1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.9020edcd.css.map": "/YonPalac1/static/css/main.9020edcd.css.map",
-    "main.350f85a3.js.map": "/YonPalac1/static/js/main.350f85a3.js.map",
+    "main.bdc9719f.js.map": "/YonPalac1/static/js/main.bdc9719f.js.map",
     "787.fb771931.chunk.js.map": "/YonPalac1/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9020edcd.css",
-    "static/js/main.350f85a3.js"
+    "static/js/main.bdc9719f.js"
   ]
 }
