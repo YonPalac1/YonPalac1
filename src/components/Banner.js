@@ -52,16 +52,20 @@ export const Banner = () => {
     <section className="banner" id="home">
     <Particles />
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="aligh-items-center ">
           <Col>
             <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              {({ isVisible }) => <>
+              <div className={isVisible ? "animate__animated animate__fadeIn" : "text-container"}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Jonatan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "FullStack", "Friend" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I do things for the web. Pages, games and that kind of thing... </p>
-                  <a href="https://www.linkedin.com/in/palacios-yonatan/">Let’s Connect <ArrowRightCircle size={25} /></a>
-              </div>}
+              </div>
+              <div className="text-container">
+                  <a href="https://www.linkedin.com/in/palacios-yonatan/" target="_blank">Let’s Connect <ArrowRightCircle size={25} /></a>
+              </div>
+              </>
+              }
             </TrackVisibility>
           </Col>
         </Row>

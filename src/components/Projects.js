@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,58 +13,54 @@ import example4 from "../assets/img/projects/project1/4.png";
 import example5 from "../assets/img/projects/project1/5.png";
 
 import projImg2 from "../assets/img/projects/project2/project-img2.png";
-import examplep1 from "../assets/img/projects/project2/1.png";
-import examplep2 from "../assets/img/projects/project2/2.png";
-import examplep3 from "../assets/img/projects/project2/3.png";
-import examplep4 from "../assets/img/projects/project2/4.png";
-import examplep5 from "../assets/img/projects/project2/5.png";
-import examplep6 from "../assets/img/projects/project2/6.png";
-import examplep7 from "../assets/img/projects/project2/7.png";
-import examplep8 from "../assets/img/projects/project2/8.png";
-import examplep9 from "../assets/img/projects/project2/9.png";
 
 import projImg3 from "../assets/img/projects/project3/project-img3.png";
 import projImg4 from "../assets/img/projects/project4/img1.png";
+import projImg5 from "../assets/img/projects/project5/chat.png";
 
 export const Projects = () => {
 
   const projects = [
     {
-      id: 1,
+      title: "Chat room",
+      type: "Chat with Firebase",
+      description: "Firebase, sass",
+      imgUrl: projImg5,
+      web: "https://yonpalac1.github.io/chat-room/",
+    },
+    {
       title: "Cerveceria",
-      type: "Ecommerce",
-      description: "Design & Development",
+      type: "Design & Development",
+      description: "Express, Nodejs, MySql, CSS, JS",
       imgUrl: projImg1,
       images: [example1, example2, example3, example4, example5]
     },
     {
-      id: 2,
-      title: "Pizzeria",
-      type: "Delivery App",
-      description: "FrontEnd dev",
+      title: "Pizzeria - Delivery App",
+      type: "FrontEnd dev",
+      description: "React, Redux, CSS",
       imgUrl: projImg2,
-      images: [examplep1, examplep2, examplep3, examplep4, examplep5, examplep6, examplep7, examplep8, examplep9],
       web: "https://pizzeria-remolo-1d5bfc.netlify.app/", 
     },
     {
-      id: 3,
-      title: "Star Wars Planet",
-      type: "Api Star Wars",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      id: 4,
       title: "Effects",
       type: "Canvas effects",
       description: "Efectos on mouse",
       imgUrl: projImg4,
       web: "https://canvas-proyects-8n2g.vercel.app/", 
     },
+    {
+      title: "Star Wars Planet",
+      type: "Api Star Wars",
+      description: "Design & Development",
+      imgUrl: projImg3,
+      web:"https://vigorous-meninsky-264e9a.netlify.app/"
+    },
+    
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>

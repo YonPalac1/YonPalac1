@@ -45,9 +45,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/palacios-yonatan/"><img src={navIcon1} alt="" /></a>
-                <a href="https://api.whatsapp.com/send/?phone=5491139366942&app_absent=0"><img src={navIcon2} alt="" /></a>
-                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=palaciosjonatan.dev@gmail.com"><img src={navIcon3} alt="" /></a>
+                <a target="_blank" href="https://www.linkedin.com/in/palacios-yonatan/"><img src={navIcon1} alt="" /></a>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=5491139366942&app_absent=0"><img src={navIcon2} alt="" /></a>
+                <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=palaciosjonatan.dev@gmail.com"><img src={navIcon3} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
