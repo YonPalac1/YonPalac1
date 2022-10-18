@@ -17,10 +17,18 @@ import projImg2 from "../assets/img/projects/project2/project-img2.png";
 import projImg3 from "../assets/img/projects/project3/project-img3.png";
 import projImg4 from "../assets/img/projects/project4/img1.png";
 import projImg5 from "../assets/img/projects/project5/chat.png";
+import admin from "../assets/img/projects/project5/admin.png";
 
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Dashboard",
+      type: "Design & Development",
+      description: "Material UI, SASS, Recharts",
+      imgUrl: admin,
+      web: "https://darshboard.vercel.app/",
+    },
     {
       title: "Chat room",
       type: "Chat with Firebase",
