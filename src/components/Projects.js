@@ -18,10 +18,18 @@ import projImg3 from "../assets/img/projects/project3/project-img3.png";
 import projImg4 from "../assets/img/projects/project4/img1.png";
 import projImg5 from "../assets/img/projects/project5/chat.png";
 import admin from "../assets/img/projects/project6/admin.png";
+import support from "../assets/img/projects/project6/support.png";
 
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Support Chat",
+      type: "Chat with a admin support",
+      description: "Express, Socket.io, Server, Bootstrap, Recharts",
+      imgUrl: support,
+      web: "https://super-support.herokuapp.com/",
+    },
     {
       title: "Dashboard",
       type: "Design & Development",
