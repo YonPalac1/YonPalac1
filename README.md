@@ -1,33 +1,29 @@
-# Personal Portfolio Website in React
+# JONATAN PALACIOS - WEB DEVELOPER 
 
+<p>Graduado en Digital House (2021) como fullstack. Apasionado por
+la programación. Mi objetivo es un trabajo donde pueda combinar
+mis habilidades en un entorno donde pueda seguir aprendiendo.</p>
 
-Built using:
+### contacto
+<p>CEL: 011 3936 6942</p>
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+<a href="https://www.linkedin.com/in/yonatan-palacios-5a5482203/">LINKEDIN</a>
 
-In the /personal-portfolio, you can run:
+### SKILLS
+- NodeJs
+- Express
+- HTML - CSS
+- MySql
+- NextJs
+- React - Redux
+- Rest
+- MVC
+- Git
+- GitHub
+- Inglés B1
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### SOFT SKILLS
+- Scrum
+- Resolutivo
+- Empatico
+- Proactivo
