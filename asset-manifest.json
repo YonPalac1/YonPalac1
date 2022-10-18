@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YonPalac1/static/css/main.c1d547fc.css",
-    "main.js": "/YonPalac1/static/js/main.b8b92b23.js",
+    "main.js": "/YonPalac1/static/js/main.479cb61a.js",
     "static/js/787.fb771931.chunk.js": "/YonPalac1/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/YonPalac1/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img1.png": "/YonPalac1/static/media/project-img1.2326b380d0f1f20a19d5.png",
@@ -15,6 +15,7 @@
     "static/media/2.png": "/YonPalac1/static/media/2.ae36826ae9c22f630a47.png",
     "static/media/CentraNo2-Bold.ttf": "/YonPalac1/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/YonPalac1/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/admin.png": "/YonPalac1/static/media/admin.8d8a2c20ff9a5629e74b.png",
     "static/media/CentraNo2-Book.ttf": "/YonPalac1/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/5.png": "/YonPalac1/static/media/5.cfb968ab2ef383692f21.png",
     "static/media/footer-bg.png": "/YonPalac1/static/media/footer-bg.7bd67c0f73571d0acc02.png",
@@ -28,11 +29,11 @@
     "index.html": "/YonPalac1/index.html",
     "static/media/nav-icon1.svg": "/YonPalac1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.c1d547fc.css.map": "/YonPalac1/static/css/main.c1d547fc.css.map",
-    "main.b8b92b23.js.map": "/YonPalac1/static/js/main.b8b92b23.js.map",
+    "main.479cb61a.js.map": "/YonPalac1/static/js/main.479cb61a.js.map",
     "787.fb771931.chunk.js.map": "/YonPalac1/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1d547fc.css",
-    "static/js/main.b8b92b23.js"
+    "static/js/main.479cb61a.js"
   ]
 }
