@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 import { ProjectCard } from "./ProjectCard";
@@ -19,6 +18,9 @@ import projImg4 from "../assets/img/projects/project4/img1.png";
 import projImg5 from "../assets/img/projects/project5/chat.png";
 import admin from "../assets/img/projects/project6/admin.png";
 import support from "../assets/img/projects/project6/support.png";
+
+import 'animate.css';
+
 
 export const Projects = () => {
 
