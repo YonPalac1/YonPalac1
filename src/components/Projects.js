@@ -17,7 +17,8 @@ import projImg3 from "../assets/img/projects/project3/project-img3.png";
 import projImg4 from "../assets/img/projects/project4/img1.png";
 import projImg5 from "../assets/img/projects/project5/chat.png";
 import admin from "../assets/img/projects/project6/admin.png";
-import support from "../assets/img/projects/project6/support.png";
+import pokedex from "../assets/img/projects/project7/pokedex.png";
+import minigames from "../assets/img/projects/project7/minigames.png";
 
 import 'animate.css';
 
@@ -26,11 +27,11 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Support Chat",
-      type: "Chat with a admin support",
-      description: "Express, Socket.io, Server, Bootstrap, Recharts",
-      imgUrl: support,
-      web: "https://super-support.herokuapp.com/",
+      title: "Pokedex",
+      type: "Pokemon Api con Redux",
+      description: "Redux, Material ui, Animation.css, Api, Crud",
+      imgUrl: pokedex,
+      web: "https://challenge-pokedex-xi.vercel.app/",
     },
     {
       title: "Dashboard",
@@ -54,11 +55,11 @@ export const Projects = () => {
       images: [example1, example2, example3, example4, example5]
     },
     {
-      title: "Pizzeria - Delivery App",
+      title: "Minigames",
       type: "FrontEnd dev",
-      description: "React, Redux, CSS",
-      imgUrl: projImg2,
-      web: "https://pizzeria-remolo-1d5bfc.netlify.app/", 
+      description: "React, Redux, Material ui",
+      imgUrl: minigames,
+      web: "https://minigames-nine.vercel.app/", 
     },
     {
       title: "Effects",
