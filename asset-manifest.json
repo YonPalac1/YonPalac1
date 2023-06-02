@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/YonPalac1/static/css/main.c1d547fc.css",
-    "main.js": "/YonPalac1/static/js/main.bb5c9abe.js",
+    "main.js": "/YonPalac1/static/js/main.95714097.js",
     "static/js/787.fb771931.chunk.js": "/YonPalac1/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/YonPalac1/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img1.png": "/YonPalac1/static/media/project-img1.2326b380d0f1f20a19d5.png",
+    "static/media/minigames.png": "/YonPalac1/static/media/minigames.bb87d2eb9e41710cb1e5.png",
     "static/media/color-sharp2.png": "/YonPalac1/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/pokedex.png": "/YonPalac1/static/media/pokedex.0572b8eb812c7b178c22.png",
     "static/media/chat.png": "/YonPalac1/static/media/chat.ad2dc2b2bf629ef1d298.png",
     "static/media/project-img3.png": "/YonPalac1/static/media/project-img3.195ead507b64d1ea2839.png",
-    "static/media/support.png": "/YonPalac1/static/media/support.3dcc4d53c21d52786709.png",
     "static/media/img1.png": "/YonPalac1/static/media/img1.d65b6f5e14076b0266f1.png",
     "static/media/3.png": "/YonPalac1/static/media/3.0f2a7e4f064232dd7976.png",
     "static/media/1.png": "/YonPalac1/static/media/1.f653c488fe420491e448.png",
@@ -30,11 +31,11 @@
     "index.html": "/YonPalac1/index.html",
     "static/media/nav-icon1.svg": "/YonPalac1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.c1d547fc.css.map": "/YonPalac1/static/css/main.c1d547fc.css.map",
-    "main.bb5c9abe.js.map": "/YonPalac1/static/js/main.bb5c9abe.js.map",
+    "main.95714097.js.map": "/YonPalac1/static/js/main.95714097.js.map",
     "787.fb771931.chunk.js.map": "/YonPalac1/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1d547fc.css",
-    "static/js/main.bb5c9abe.js"
+    "static/js/main.95714097.js"
   ]
 }
