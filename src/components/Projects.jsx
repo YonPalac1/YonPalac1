@@ -13,7 +13,7 @@ export const Projects = () => {
           <Col size={12}>
             <div>
 
-              <Slide direction="down">
+              <Slide direction="down" triggerOnce={true}>
                 <h2>Projects</h2>
               </Slide>
               <Row>

@@ -18,11 +18,11 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <Slide direction="down">
+              <Slide direction="down" triggerOnce={true}>
                 <h2>Skills</h2>
               </Slide>
               <section>
-                <Fade cascade direction="down" duration="1000">
+                <Fade cascade direction="down" duration="1000" triggerOnce={true}>
                   <div>
                     <img src={html} alt="HTML5"></img>
                     <span>HTML5</span>

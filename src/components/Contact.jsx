@@ -55,7 +55,7 @@ export const Contact = () => {
         <Row className="align-items-center">
           <Col>
                 <div>
-                <Slide direction="down">
+                <Slide direction="down" triggerOnce={true}>
                   <h2>Get In Touch</h2>
                 </Slide>
                 {/* <form onSubmit={handleSubmit}>
@@ -84,7 +84,7 @@ export const Contact = () => {
                     }
                   </Row>
                 </form> */}
-                <Slide cascade>
+                <Slide cascade triggerOnce={true}>
                 <div className="conection-medium">
                   <span>Have a question?</span>
                   <span>I am here to help you</span>

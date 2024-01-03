@@ -11,7 +11,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col size={12} sm={12} className="text-center">
             <div className="social-icon">
-              <Fade cascade direction="up" delay={1000}>
+              <Fade cascade direction="up" delay={1000} triggerOnce={true}>
                 <a href="#"><img src={navIcon1} alt="Icon" /></a>
                 <a href="#"><img src={navIcon2} alt="Icon" /></a>
                 <a href="#"><img src={navIcon3} alt="Icon" /></a>
