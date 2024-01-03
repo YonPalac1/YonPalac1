@@ -1,12 +1,15 @@
 {
-  "name": "portfolio-rehecho",
+  "homepage": "https://yonpalac1.github.io/YonPalac1",
+  "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "vite": "^5.0.8"
