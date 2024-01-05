@@ -405,6 +405,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .about h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.about p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.about h2 {
   animation: bright 1s infinite;
 }
 .about .thumbsup {
@@ -435,111 +449,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
-.project p {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 56%;
+.projects {
+  border-bottom: 1px dotted #cccc;
+  padding: 20px 0;
+  cursor: crosshair;
+  transition: 0.750ms;
 }
-.project .nav.nav-pills {
-  width: 72%;
-  margin: 0 auto;
-  border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
-  overflow: hidden;
+.projects .projects_name {
+  display: flex;
+  gap: 20px;
 }
-.project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+.projects .projects_name a {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
-.project .nav.nav-pills .nav-link {
-  background-color: transparent;
-  border-radius: 0;
-  padding: 17px 0;
-  color: #fff;
-  width: 100%;
-  font-size: 17px;
-  letter-spacing: 0.8px;
-  font-weight: 500;
+.projects .projects_image {
   position: relative;
-  transition: 0.3s ease-in-out;
-  text-align: center;
-  z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
-}
-.project .nav.nav-pills .nav-link.active::before {
-    width: 100% !important;
-}
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
-}
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
-}
-.proj-imgbx {
-  position: relative;
-  border-radius: 30px;
-  overflow: hidden;
-  margin-bottom: 24px;
-}
-.proj-imgbx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
+.projects .projects_image img {
   position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
+  width: 200px;
+  transform: rotate(5deg);
+  top: -100px;
+  left: calc(var(--cursorXPos) / 4);
+  cursor: pointer;
+  filter: grayscale(5);
+  display: none;
 }
-.proj-imgbx:hover::before {
-  height: 100%;
+.projects .projects_image img:hover {
+  filter: none;
 }
-.proj-txtx {
-  position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 100%;
+.projects:hover img {
+  display: block;
 }
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
-}
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+.projects p {
+  color: #ccc;
+  font-size: 14px;
 }
 .background-image-right {
   top: 20%;
@@ -550,6 +496,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+
+/* MODAL */
+.modal-dialog .modal-content {
+  background-color: #001c06;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.modal-body img {
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-header a {
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  
+}
+.modal-footer a {
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 1) -5.91%,  rgb(44, 27, 190) 20.91%, rgba(47, 189, 90, 1) 111.58%);
@@ -797,3 +777,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: -10px;
   opacity: 0;
 }
+
+/* Responsive */
