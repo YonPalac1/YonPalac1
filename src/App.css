@@ -275,6 +275,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  h1 span {
   position: relative;
   cursor: none;
+  color: rgb(47, 189, 90);
   animation: text_shake 0.35s;
   animation-iteration-count: 4;
 }
