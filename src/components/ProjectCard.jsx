@@ -35,7 +35,7 @@ export const ProjectCard = ({ project }) => {
                 {project.tecnologies}</Modal.Body>
             <Modal.Footer>
                 <p>Mas detalles en <ArrowRightShort />
-                <a href={project.github} target="_blank"><Github /> </a> </p>
+                <a href={project.repository} target="_blank"><Github /> </a> </p>
             </Modal.Footer>
         </Modal>
     </>
