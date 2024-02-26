@@ -17,8 +17,8 @@
 
 /************ Default Css ************/
 :root {
-  --cursorXPos: 50vw;
-  --cursorYPos: 50vh;
+  --cursorXPos: 30vw;
+  --cursorYPos: 30vh;
 }
 * {
   margin: 0;
