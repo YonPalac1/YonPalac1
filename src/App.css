@@ -17,8 +17,8 @@
 
 /************ Default Css ************/
 :root {
-  --cursorXPos: 30vw;
-  --cursorYPos: 30vh;
+  --cursorXPos: 20vw;
+  --cursorYPos: 20vh;
 }
 * {
   margin: 0;
@@ -406,10 +406,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about {
   position: relative;
 }
-.about img {
-  top: 0;
+.about .background-image-right {
   position: fixed;
-  z-index: 0;
 }
 .about h2 {
 	font-size: 45px;
@@ -440,9 +438,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: rgb(200, 200, 200);
   }
 }
-.about h2:hover:after {
+.about h2:hover:before {
     content: url('./assets/images/hacker.gif');
     position: absolute;
+    top: -120px;
+    z-index: -1;
 }
 
 /************ Projects Css ************/
@@ -463,14 +463,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   overflow: hidden;
   z-index: 2;
+  border-radius: 10px;
 }
 .projects_image .projects_image-img img {
   width: 100%;
+  transition: .5s;
 }
 .project-name {
   position: absolute;
   bottom: 0;
-  background-color: rgba(47, 189, 90, 0.8);
+  background-color: rgba(54, 54, 54, 0.8);
   width: 100%;
   height: 12%;
   text-align: center;
@@ -480,6 +482,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
 }
 .project-name span {
   display: none;
@@ -488,9 +491,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: none;
 }
 .projects_image .project-data a {
-  
   font-size: 30px;
-  color: #000000;
+  color: white;
+}
+.projects_image:hover .projects_image-img img {
+  filter: blur(4px);
 }
 .projects_image:hover .project-name {
   height: 100%;
@@ -505,34 +510,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .modal-dialog .modal-content {
   background-color: #001c06;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+.modal-header {
+   border-bottom: none;
 }
 .modal-body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
+  width: 100%;
 }
-.modal-body img {
-  border-radius: 10px;
-  width: 200px;
+.modal-body a {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+.modal-links {
+  border-bottom: 1px dotted #fff;
+  width: 100%;
+}
+.modal-links_link {
   display: flex;
-  flex-direction: column;
-}
-.modal-header a {
-  cursor: pointer;
-  font-size: 22px;
-  color: white;
-  position: absolute;
-  right: 20px;
-  
-}
-.modal-footer a {
-  cursor: pointer;
-  font-size: 22px;
-  color: white;
+  gap: 20px;
 }
 /************ Projects Css ************/
 .contact {
