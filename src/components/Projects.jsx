@@ -15,7 +15,7 @@ export const Projects = () => {
               <Slide direction="down" triggerOnce={true}>
                 <h2>Projects</h2>
               </Slide>
-              <Row>
+              <Row fluid="md">
                 {
                   PROJECTS.map((project, i) => {
                     return <ProjectCard project={project} key={i} />

@@ -8,19 +8,22 @@ export const ProjectCard = ({ project }) => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    return <>
-        <Container className="projects">
+    return <Col md="4" sm="6">
+        <Container>
             <Row>
-                <Col>
-                    <div className="projects_name">
-                        <h4>{project.name}</h4>
-                        <a href={project.repository} target="_blank"><Github /></a>
-                        <a href={project.link} target="_blank"><BoxArrowInUpRight /></a>
-                    </div>
-                    <p>{project.tecnologies}</p>
-                </Col>
                 <Col className="projects_image">
-                    <img onClick={handleShow} src={project.image} alt={project.name}></img>
+                    <div className="projects_image-img">
+                        <img onClick={handleShow} src={project.image} alt={project.name}></img>
+                    </div>
+                    <div className="project-name">
+                        <h3>{project.name}</h3>
+                        <span>{project.tecnologies}</span>
+                        
+                        <div className="project-data">
+                            <a href={project.link} target="_blank"><BoxArrowInUpRight /></a>
+                            
+                        </div>
+                    </div>
                 </Col>
             </Row>
         </Container>
@@ -38,5 +41,5 @@ export const ProjectCard = ({ project }) => {
                 <a href={project.repository} target="_blank"><Github /> </a> </p>
             </Modal.Footer>
         </Modal>
-    </>
+    </Col>
 }

@@ -373,6 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
   display: flex;
   flex-direction: column;
+  z-index: 4;
 }
 .skill-bx section {
   display: flex;
@@ -404,6 +405,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*            About                   */
 .about {
   position: relative;
+}
+.about img {
+  top: 0;
+  position: fixed;
+  z-index: 0;
 }
 .about h2 {
 	font-size: 45px;
@@ -450,54 +456,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
-.projects {
-  border-bottom: 1px dotted #cccc;
-  padding: 20px 0;
-  cursor: crosshair;
-  transition: 0.750ms;
-}
-.projects .projects_name {
-  display: flex;
-  gap: 20px;
-}
-.projects .projects_name a {
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-}
-.projects .projects_image {
+.projects_image {
   position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
 }
-.projects .projects_image img {
-  position: absolute;
-  width: 200px;
-  transform: rotate(5deg);
-  top: -100px;
-  left: calc(var(--cursorXPos) / 4);
-  cursor: pointer;
-  filter: grayscale(5);
-  display: none;
+.projects_image .projects_image-img img {
+  width: 100%;
 }
-.projects .projects_image img:hover {
-  filter: none;
-}
-.projects:hover img {
-  display: block;
-}
-.projects p {
-  color: #ccc;
-  font-size: 14px;
-}
-.background-image-right {
-  top: 20%;
+.project-name {
   position: absolute;
   bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
+  background-color: rgba(47, 189, 90, 0.8);
+  width: 100%;
+  height: 12%;
+  text-align: center;
+  color: #001c06;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-
+.project-name span {
+  display: none;
+}
+.projects_image .project-data {
+  display: none;
+}
+.projects_image .project-data a {
+  
+  font-size: 30px;
+  color: #000000;
+}
+.projects_image:hover .project-name {
+  height: 100%;
+}
+.projects_image:hover .project-name span {
+  display: block;
+}
+.projects_image:hover .project-data {
+  display: block;
+}
 /* MODAL */
 .modal-dialog .modal-content {
   background-color: #001c06;
